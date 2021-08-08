@@ -1,0 +1,29 @@
+  <web-app>
+  <welcome-file-list>
+    <welcome-file>login.html</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  <servlet-name>gj</servlet-name>
+  <servlet-class>com.servlet.prectice.DownDemo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>gj</servlet-name>
+  <url-pattern>/pop</url-pattern>
+  </servlet-mapping>
+   
+    <servlet>
+  <servlet-name>gpo</servlet-name>
+  <servlet-class>com.servlet.prectice.CreateLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>gpo</servlet-name>
+  <url-pattern>/login1</url-pattern>
+  </servlet-mapping>
+  
+<context-param>
+<param-name>fol</param-name>
+<param-value>D:/image/</param-value>
+</context-param>
+
+</web-app>
